@@ -6,6 +6,15 @@ Code accompanying the paper *"Strategic Navigation or Stochastic Search? How Age
 
 MADQA is a benchmark of 2,250 human-authored questions grounded in 800 heterogeneous PDF documents, designed to evaluate agentic reasoning over document collections.
 
+<p align="center">
+  <img src="hero-process.jpg" width="30%" alt="MADQA reasoning process"/>
+  <br>
+  <sub>
+  <b>Figure:</b> MADQA reasoning workflow. Given a query q over a document corpus C, the agentic system iteratively retrieves pages, reasons over visual and textual content, and aggregates evidence across pages to produce an attributed answer
+  </sub>
+</p>
+
+
 ## Repository Structure
 
 ```
@@ -43,6 +52,17 @@ python eval/evaluate.py m1.jsonl m2.jsonl --compare       # compare systems
 ```
 
 See [`examples/`](examples/) for more.
+
+## Example MADQA Question
+
+<p align="center">
+  <img src="hero-example.jpg" width="70%" alt="Example MADQA question"/>
+  <br>
+  <sub>
+  <b>Figure:</b> Example MADQA question requiring reasoning across multiple documents. The answer requires retrieving evidence from different reports and aggregating values across years.
+  </sub>
+</p>
+
 
 ## License
 
