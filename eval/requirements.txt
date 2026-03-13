@@ -1,0 +1,4 @@
+anls-star>=0.1.0
+datasets>=2.14.0
+numpy>=1.24.0
+google-generativeai>=0.4.1

@@ -1,0 +1,32 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.40.0
+numpy>=1.24.0
+Pillow>=10.0.0
+tqdm>=4.60.0
+scipy>=1.10.0
+
+# PDF processing
+pymupdf>=1.24.0
+
+# HuggingFace
+huggingface-hub>=0.20.0
+datasets>=2.14.0
+
+# VLM API
+openai>=1.0.0
+
+# HEAVEN encoders
+# Stage 1 (paper default): DSE - MrLight/dse-qwen2-2b-mrl-v1
+qwen-vl-utils>=0.0.8
+# Stage 2 (paper default): ColQwen2.5 - vidore/colqwen2.5-v0.2
+colpali-engine>=0.3.0
+
+# Query token filtering (POS tagging)
+nltk>=3.8.0
+
+# Document Layout Analysis (same as original HEAVEN)
+doclayout-yolo>=0.0.1
+
+# OpenCV (headless for server environments without display)
+opencv-python-headless>=4.8.0

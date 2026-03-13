@@ -1,0 +1,4 @@
+boto3
+datasets
+pdf2image
+Pillow
