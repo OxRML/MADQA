@@ -48,6 +48,8 @@ See [`examples/`](examples/) for more.
 
 Apache 2.0
 
+## Citation
+
 If you use **MADQA** in your research, please cite:
 
 ```bibtex
