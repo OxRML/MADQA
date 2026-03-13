@@ -2,7 +2,7 @@
 
 Code accompanying the paper *"Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections"*.
 
-**Leaderboard**: [`MADQA Leaderboard`](https://huggingface.co/spaces/Snowflake/MADQA-Leaderboard) | **Dataset**: [`OxRML/MADQA`](https://huggingface.co/datasets/OxRML/MADQA)
+**Leaderboard**: [`MADQA Leaderboard`](https://huggingface.co/spaces/Snowflake/MADQA-Leaderboard) | **Dataset**: [`OxRML/MADQA`](https://huggingface.co/datasets/OxRML/MADQA) | **Paper**: [`arXiv`](https://arxiv.org/abs/2603.12180)
 
 MADQA is a benchmark of 2,250 human-authored questions grounded in 800 heterogeneous PDF documents, designed to evaluate agentic reasoning over document collections.
 
@@ -47,3 +47,17 @@ See [`examples/`](examples/) for more.
 ## License
 
 Apache 2.0
+
+If you use **MADQA** in your research, please cite:
+
+```bibtex
+@misc{borchmann2026madqa,
+  title={Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections},
+  author={Łukasz Borchmann and Jordy Van Landeghem and Michał Turski and Shreyansh Padarha and Ryan Othniel Kearns and Adam Mahdi and Niels Rogge and Clémentine Fourrier and Siwei Han and Huaxiu Yao and Artemis Llabrés and Yiming Xu and Dimosthenis Karatzas and Hao Zhang and Anupam Datta},
+  year={2026},
+  eprint={2603.12180},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2603.12180},
+}
+```
